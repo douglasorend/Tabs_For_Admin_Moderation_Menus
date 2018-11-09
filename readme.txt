@@ -1,5 +1,5 @@
 [hr]
-[center][color=red][size=16pt][b]TABS FOR ADMIN & MODERATION MENUS V1.1[/b][/size][/color]
+[center][color=red][size=16pt][b]TABS FOR ADMIN & MODERATION MENUS V1.2[/b][/size][/color]
 [url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=3792]Link to Mod[/url]
 [/center]
 [hr]
@@ -13,7 +13,7 @@ In my opinion, phpBB has a nicer and less confusing layout of the admin menu.  T
 ~ The link tree underneath the description has been removed, as the subsections listed are now part of the sidebar.
 
 [color=blue][b][size=12pt][u]Compatibility Notes[/u][/size][/b][/color]
-This mod was tested on SMF 2.0.9, but should work on earlier versions of SMF 2.0.x.  SMF 1.x is not and will not be supported.
+This mod was tested on SMF 2.0.9, but should work on SMF 2.1 Beta 1, as well as SMF 2.0 and up.  SMF 1.x is not and will not be supported.
 
 [color=blue][b][size=12pt][u]Changelog[/u][/size][/b][/color]
 The changelog has been removed and can be seen at [url=http://www.xptsp.com/board/index.php?topic=19.msg143#msg143]XPtsp.com[/url].

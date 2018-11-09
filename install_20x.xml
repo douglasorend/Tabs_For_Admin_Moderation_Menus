@@ -3,7 +3,7 @@
 <modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
 <id>dougiefresh:Tabs4Admin</id>
 <name>Real Tabs for Admin & Moderator Menus</name>
-<version>1.1</version>
+<version>1.2</version>
 
 <file name="$sourcedir/Admin.php">
 	<operation>
@@ -12,7 +12,7 @@
 	</operation>
 	<operation>
 		<search position="replace"><![CDATA[loadTemplate('Admin', 'admin');]]></search>
-		<add><![CDATA[loadTemplate('Admin', array('admin', 'realtabs'));]]></add>
+		<add><![CDATA[loadTemplate('Admin', array('admin', 'realtabs_20x'));]]></add>
 	</operation>
 </file>
 <file name="$sourcedir/ModerationCenter.php">
@@ -23,7 +23,7 @@
 	</operation>
 	<operation>
 		<search position="replace"><![CDATA[loadTemplate(false, 'admin');]]></search>
-		<add><![CDATA[loadTemplate(false, array('admin', 'realtabs'));]]></add>
+		<add><![CDATA[loadTemplate(false, array('admin', 'realtabs_20x'));]]></add>
 	</operation>
 </file>
 </modification>

@@ -1,0 +1,8 @@
+v1.2 - April 5th, 2015
+o Updated for SMF 2.1 Beta 1
+
+v1.1 - January 19th, 2015
+o License change to Simplified BSD.  No functionality change.
+
+v1.0 - November 7th, 2014
+o Initial Re-Release to the Public

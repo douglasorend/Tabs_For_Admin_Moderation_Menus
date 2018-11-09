@@ -3,18 +3,30 @@
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>dougiefresh:Tabs4Admin</id>
 	<name>Tabs for Admin & Moderator Menus</name>
-	<version>1.1</version>
+	<version>1.2</version>
 	<type>modification</type>
 
 	<install for="2.0 - 2.0.99">
 		<readme type="file" parsebbc="true">readme.txt</readme>
-		<modification>install.xml</modification>
-		<require-file name="realtabs.css" destination="$themedir/css" />
+		<modification>install_20x.xml</modification>
+		<require-file name="realtabs_20x.css" destination="$themedir/css" />
 		<require-file name="GenericTabs.template.php" destination="$boarddir/Themes/default" />
 	</install>
 	<uninstall for="2.0 - 2.0.99">
-		<modification reverse="true">install.xml</modification>
-		<remove-file name="$themedir/css/realtabs.css" />
+		<modification reverse="true">install_20x.xml</modification>
+		<remove-file name="$themedir/css/realtabs_20x.css" />
+		<remove-file name="$boarddir/Themes/default/GenericTabs.template.php" />
+	</uninstall>
+
+	<install for="2.1 Beta 1">
+		<readme type="file" parsebbc="true">readme.txt</readme>
+		<modification>install_21x.xml</modification>
+		<require-file name="realtabs_21x.css" destination="$themedir/css" />
+		<require-file name="GenericTabs.template.php" destination="$boarddir/Themes/default" />
+	</install>
+	<uninstall for="2.1 Beta 1">
+		<modification reverse="true">install_21x.xml</modification>
+		<remove-file name="$themedir/css/realtabs_21x.css" />
 		<remove-file name="$boarddir/Themes/default/GenericTabs.template.php" />
 	</uninstall>
 </package-info>

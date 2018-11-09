@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+<id>dougiefresh:Tabs4Admin</id>
+<name>Real Tabs for Admin & Moderator Menus</name>
+<version>1.2</version>
+
+<file name="$sourcedir/Admin.php">
+	<operation>
+		<search position="replace"><![CDATA[$admin_include_data = createMenu($admin_areas, array('do_big_icons' => true));]]></search>
+		<add><![CDATA[$admin_include_data = createMenu($admin_areas, array('do_big_icons' => true, 'template_name' => 'GenericTabs'));]]></add>
+	</operation>
+	<operation>
+		<search position="replace"><![CDATA[loadTemplate('Admin', 'admin');]]></search>
+		<add><![CDATA[loadTemplate('Admin', array('admin', 'realtabs_21x'));]]></add>
+	</operation>
+</file>
+<file name="$sourcedir/ModerationCenter.php">
+	<operation>
+		<search position="before"><![CDATA['disable_url_session_check' => true,]]></search>
+		<add><![CDATA[
+		'template_name' => 'GenericTabs',]]></add>
+	</operation>
+	<operation>
+		<search position="replace"><![CDATA[loadTemplate(false, 'admin');]]></search>
+		<add><![CDATA[loadTemplate(false, array('admin', 'realtabs_21x'));]]></add>
+	</operation>
+</file>
+</modification>
