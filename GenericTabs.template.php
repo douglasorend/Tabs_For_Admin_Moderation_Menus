@@ -6,6 +6,8 @@
 * WITHOUT ANY WARRANTIES; without even any implied warranty of MERCHANTABILITY
 * or FITNESS FOR A PARTICULAR PURPOSE .
 **********************************************************************************/
+if (!defined('SMF'))
+	die('Hacking attempt...');
 
 // This contains the html for the side bar of the admin center, which is used for all admin pages.
 function template_generic_menu_sidebar_above()

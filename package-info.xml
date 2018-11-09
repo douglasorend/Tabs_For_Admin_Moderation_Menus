@@ -3,7 +3,7 @@
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>dougiefresh:Tabs4Admin</id>
 	<name>Tabs for Admin & Moderator Menus</name>
-	<version>1.2</version>
+	<version>1.3</version>
 	<type>modification</type>
 
 	<install for="2.0 - 2.0.99">
@@ -18,13 +18,13 @@
 		<remove-file name="$boarddir/Themes/default/GenericTabs.template.php" />
 	</uninstall>
 
-	<install for="2.1 Beta 1">
+	<install for="2.1 Beta 3">
 		<readme type="file" parsebbc="true">readme.txt</readme>
 		<modification>install_21x.xml</modification>
 		<require-file name="realtabs_21x.css" destination="$themedir/css" />
 		<require-file name="GenericTabs.template.php" destination="$boarddir/Themes/default" />
 	</install>
-	<uninstall for="2.1 Beta 1">
+	<uninstall for="2.1 Beta 3">
 		<modification reverse="true">install_21x.xml</modification>
 		<remove-file name="$themedir/css/realtabs_21x.css" />
 		<remove-file name="$boarddir/Themes/default/GenericTabs.template.php" />
