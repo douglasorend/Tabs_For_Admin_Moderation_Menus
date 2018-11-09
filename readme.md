@@ -1,25 +1,28 @@
-[hr]
-[center][color=red][size=16pt][b]TABS FOR ADMIN & MODERATION MENUS V1.4[/b][/size][/color]
-[url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=3792]Link to Mod[/url]
-[/center]
-[hr]
+-------
 
-[color=blue][b][size=12pt][u]Introduction[/u][/size][/b][/color]
+# TABS FOR ADMIN & MODERATION MENUS V1.4
+
+[**By Dougiefresh**](http://www.simplemachines.org/community/index.php?action=profile;u=253913) -> [Link to Mod](http://custom.simplemachines.org/mods/index.php?mod=3792)
+
+-------
+
+## Introduction
 In my opinion, phpBB has a nicer and less confusing layout of the admin menu.  This mod attempts to make the menu closer to phpBB's menu layout without majorly rewriting SMF (also known as forking), as that would be too big a task....
 
-[color=blue][b][size=12pt][u]Admin Alterations[/u][/size][/b][/color]
+## Admin Alterations
 ~ Each header has been transformed into an actual tab at the top, underneath the link tree.
 ~ The sidebar menu has been modified, making all areas of a particular header and all subsections of a particular area, into menu items.
 ~ The link tree underneath the description has been removed, as the subsections listed are now part of the sidebar.
 
-[color=blue][b][size=12pt][u]Compatibility Notes[/u][/size][/b][/color]
+## Compatibility Notes
 This mod was tested on SMF 2.0.9, but should work on SMF 2.1 Beta 1, as well as SMF 2.0 and up.  SMF 1.x is not and will not be supported.
 
-[color=blue][b][size=12pt][u]Changelog[/u][/size][/b][/color]
-The changelog can be viewed at [url=http://www.xptsp.com/board/free-modifications/tabs-for-admin-moderation-menus/?tab=1]XPtsp.com[/url].
+## Changelog
+The changelog can be viewed at [XPtsp.com](http://www.xptsp.com/board/free-modifications/tabs-for-admin-moderation-menus/?tab=1).
 
-[color=blue][b][size=12pt][u]License[/u][/size][/b][/color]
+## License
 Copyright (c) 2015 - 2018, Douglas Orend
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
